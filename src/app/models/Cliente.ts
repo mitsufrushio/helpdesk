@@ -1,8 +1,11 @@
-export class Cliente{
+export interface Cliente{
     
-    codigo:number = 0;
-    nome:string = '';
-    idade:number = 0;
-    cpfCnpj:string = '';
-    
+    codCliente?: any;
+    nome: string;
+    idade: any;
+    tipo: string;
+    cpfCnpj: string;
+    email: string;
+    fone: string;
+    whatsapp: string;
 }
