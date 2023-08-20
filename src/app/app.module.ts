@@ -74,7 +74,7 @@ import { ClienteCreateComponent } from './components/cliente/cliente-create/clie
       timeOut: 4000,
       closeButton: true,
       progressBar: true
-     })
+     }),
   ],
   providers: [],
   bootstrap: [AppComponent]
